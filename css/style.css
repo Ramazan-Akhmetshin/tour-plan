@@ -693,12 +693,15 @@ template {
 }
 
 @media (max-width: 576px) {
+  .container {
+    width: 87%;
+  }
   .logo {
     width: 99px;
   }
   .navbar-top {
-    padding-top: 29px;
-    padding-bottom: 28px;
+    padding-top: 28px;
+    padding-bottom: 29px;
   }
 }
 /*# sourceMappingURL=style.css.map */
