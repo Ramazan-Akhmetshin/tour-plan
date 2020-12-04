@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-  max-width: 1110px;
+  max-width: 1111px;
   margin: auto;
 }
 
@@ -402,9 +402,8 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   color: #ffffff;
   padding: 31px 0;
 }
@@ -432,6 +431,7 @@ template {
 }
 
 .search__input {
+  outline: none;
   width: 350px;
   height: 100%;
   padding-left: 23px;
@@ -445,6 +445,7 @@ template {
 }
 
 .search__button {
+  outline: none;
   position: absolute;
   top: 0;
   right: 0;
