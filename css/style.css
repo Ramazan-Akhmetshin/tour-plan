@@ -721,7 +721,7 @@ template {
     width: 99px;
   }
   .navbar-top {
-    padding-top: 28px;
+    padding-top: 23px;
     padding-bottom: 29px;
   }
   .stars {
@@ -729,6 +729,9 @@ template {
   }
   .hotel-info__offer {
     margin-top: 0;
+  }
+  .hotel-info__name {
+    margin-top: 11px;
   }
 }
 /*# sourceMappingURL=style.css.map */
