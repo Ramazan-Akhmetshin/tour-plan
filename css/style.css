@@ -702,7 +702,7 @@ template {
   border-radius: 8px;
   width: 350px;
   min-height: 210px;
-  padding: 28px;
+  padding: 29px 29px 26px 26px;
   background-color: #0A223D;
   color: #ffffff;
 }
@@ -782,7 +782,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 17px;
+  margin-bottom: 14px;
 }
 
 .booking__heading {
@@ -825,6 +825,7 @@ template {
   border: none;
   color: #ffffff;
   cursor: pointer;
+  outline: none;
 }
 
 .map {
@@ -876,6 +877,7 @@ template {
   font-weight: 300;
   font-size: 24px;
   line-height: 30px;
+  margin: 0;
 }
 
 .newsletter-title__strong {
@@ -889,7 +891,7 @@ template {
 
 .subscribe {
   position: relative;
-  width: 355px;
+  width: 350px;
   height: 55px;
   border-radius: 4px;
   overflow: hidden;
@@ -923,10 +925,10 @@ template {
   .container {
     max-width: 960px;
   }
-  .slider {
+  .hotel__slider {
     width: 590px;
   }
-  .swiper-slide__image {
+  .hotel-slider__image {
     height: 100%;
     width: 100%;
     -o-object-fit: cover;
@@ -976,11 +978,11 @@ template {
         -ms-flex-direction: row;
             flex-direction: row;
   }
+  .hotel__slider {
+    width: 100%;
+  }
   .booking {
     width: 340px;
-  }
-  .slider {
-    width: 100%;
   }
   .map {
     width: 340px;
@@ -1025,6 +1027,9 @@ template {
     -ms-flex-preferred-size: auto;
         flex-basis: auto;
   }
+  .hotel {
+    padding-bottom: 0;
+  }
   .hotel-name {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
@@ -1050,18 +1055,23 @@ template {
             order: -1;
     margin-left: 0;
   }
-  .slider {
-    height: 350px;
-  }
   .hotel-right {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    min-height: 450px;
+    height: 405px;
+  }
+  .hotel__slider {
+    height: 179px;
+  }
+  .hotel-grid {
+    padding-top: 18px;
+    padding-bottom: 40px;
   }
   .booking {
     width: 100%;
+    padding: 29px 22px 26px 22px;
   }
   .map {
     width: 100%;
@@ -1099,9 +1109,6 @@ template {
   .hotel-info__name {
     margin-top: 11px;
   }
-  .slider {
-    height: 250px;
-  }
   .hotel__slider {
     margin-bottom: 20px;
   }
@@ -1113,6 +1120,9 @@ template {
   }
   .subscribe {
     width: 100%;
+  }
+  .map {
+    height: 172px;
   }
 }
 /*# sourceMappingURL=style.css.map */
